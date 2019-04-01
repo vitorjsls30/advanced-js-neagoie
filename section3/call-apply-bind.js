@@ -19,7 +19,7 @@ const archer = {
 // CALL/APPLY function call example
 // wizard.heal.call(archer, 50, 10);
 
-// BIND - Save ou current function for later execution preserving the this scope
+// BIND - Save ou current function for later execution preserving the THIS keyword scope
 console.log('1', archer);
 const healArcher = wizard.heal.bind(archer, 50, 10);
 healArcher();
